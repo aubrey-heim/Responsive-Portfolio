@@ -1,0 +1,10 @@
+body {
+    background-image: url("https://images.pexels.com/photos/1939485/pexels-photo-1939485.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260");
+   }
+
+.container .mt-5 {
+    background-color: white;
+    padding: 20px;
+    margin-top: 1.5rem;
+    margin-bottom: 40px;
+}
