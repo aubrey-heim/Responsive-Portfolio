@@ -27,3 +27,16 @@ h1 {
     font-family: 'Source Serif Pro', serif;
     color:  rgb(23, 146, 134);
 }
+
+footer {
+    padding: 20px;
+    background-color: rgb(107, 114, 121);
+    width: 100%;
+    border-style: solid;
+    border-width: 10px 0px 0px 0px;
+    border-color: rgb(23, 146, 134);
+    color: rgb(23, 146, 134);
+    text-align: center;
+}
+
+
