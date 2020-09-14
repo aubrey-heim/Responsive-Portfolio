@@ -5,14 +5,14 @@
   * [Bootstrap](#bootstrap)
   * [Responsive Design](#responsive-design)
   * [HTML Validation](#html-validation)
-  * [Example Photos Given](#example-photos-given)
-    * [Index](#index)
-    * [Portfolio](#portfolio)
-    * [Contact](#contact)
+  * [Photos Given](#photos-given)
+    * [Example Index](#example-index)
+    * [Example Portfolio](#example-portfolio)
+    * [Example Contact](#example-contact)
   * [Screenshots of Deployed Pages](#screenshots-of-deployed-pages)
-    * [Index](#index)
-    * [Portfolio](#portfolio)
-    * [Contact](#contact)
+    * [Final Index](#final-index)
+    * [Final Portfolio](#final-portfolio)
+    * [Final Contact](#final-contact)
 * [Benefits of This Project](#benefits-of-this-project)
 * [Accessing the Project](#accessing-the-project)
 * [Acknowledgments](#acknowledgments)
@@ -31,20 +31,20 @@
 ### HTML Validation
 
 
-### Example Photos Given
-#### Index
+### Photos Given
+#### Example Index
 
-#### Portfolio
+#### Example Portfolio
 
-#### Contact
+#### Example Contact
 
 
 ### Screenshots of Deployed Pages
-#### Index
+#### Final Index
 
-#### Portfolio
+#### Final Portfolio
 
-#### Contact
+#### Final Contact
 
 ## Benefits of This Project
 
