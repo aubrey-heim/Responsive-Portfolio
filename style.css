@@ -63,6 +63,12 @@ h1 {
     width: 100px;
 }
 
+/* Making images respond to window width */
+.responsive-image {
+    width: 100%;
+    height: auto;
+}
+
 footer {
 /* Creating footer */
     padding-top: 10px;
