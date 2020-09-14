@@ -71,4 +71,6 @@ The HTML and CSS files are included in this repository for review.
 Additionally, you can access the deployed webpage at https://aubrey-heim.github.io/responsive-portfolio/
 
 ## Acknowledgments
-Original example photos provided by the 
+Original example photos provided by the UW Full-Stack Web Development Bootcamp: https://uwa.bootcampcontent.com/UWA-Bootcamp/uw-sea-fsf-pt-08-2020-u-c
+
+Explanation of sticky-footers provided by CSS Tricks: https://css-tricks.com/couple-takes-sticky-footer/
