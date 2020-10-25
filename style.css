@@ -15,9 +15,6 @@ body {
     }
 
 /* Changing navigation link colors */
-    .nav-link {
-        color: white;
-    }
 
     #disabled {
         color: white;
@@ -36,6 +33,7 @@ body {
     background-color:#a1aea7ff;
     padding: 20px;
     border-radius: 20px;
+    margin-bottom: 70px;
 }
 
 #headshot-box{
@@ -71,27 +69,14 @@ h1 {
     color:  #506a5fff;
 }
 
-/* Squaring up contact form boxes */
-    #userName {
-        border-radius: 0;
-    }
-
-    #email {
-        border-radius: 0;
-    }
-
-    #message {
-        border-radius: 0;
-    }
-/* ^Squaring up contact form boxes^ */
 
 /* changing style of contact form submit button */
-.btn {
-    background-color: rgb(74, 170, 165);
-    border-width: 0px;
-    border-radius: 0px;
+.form-btn {
+    background-color: #744c44ff;
+    margin-left: 15px;
     padding: 10px;
     width: 100px;
+    border-color: #c59082ff;
 }
 
 /* Making images respond to window width */
@@ -100,6 +85,14 @@ h1 {
     height: auto;
 }
 
+.portfolio-button {
+    width: 49%;
+    background-color: #744c44ff;
+    padding: 10px;
+    border-color: black;
+    border-radius: 10px;
+    color: white;
+}
 footer {
 /* Creating footer */
     padding-top: 10px;
