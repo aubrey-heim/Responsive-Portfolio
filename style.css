@@ -11,6 +11,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    font-family: 'Montserrat', sans-serif;
     }
 
 /* Changing navigation link colors */
@@ -27,7 +28,6 @@ body {
 .navbar {
     background: rgb(197,144,130);
     background: linear-gradient(0deg, rgba(197,144,130,1) 43%, rgba(116,76,68,1) 100%);
-    padding: 20px;
     margin-bottom: 20px;
 }
 
@@ -59,13 +59,14 @@ body {
 /* Changing style of my name at top of page */
 #brand {
     color: #ffffff;
-    font-family: 'Source Serif Pro', serif;
+    font-family: 'Oleo Script Swash Caps', cursive;
     font-weight: bold;
+    font-size: 30px;
 }
 
 /* Changing style of main-content header */
 h1 {
-    font-family: 'Source Serif Pro', serif;
+    font-family: 'Oleo Script Swash Caps', cursive;
     font-weight: bold;
     color:  #506a5fff;
 }
@@ -102,7 +103,7 @@ h1 {
 footer {
 /* Creating footer */
     padding-top: 10px;
-    padding-bottom: 40px;
+    padding-bottom: 10px;
     background-color: #C59082;
     width: 100%;
     position: fixed;
@@ -116,10 +117,3 @@ footer {
     color:white;
     text-align: center;
 }
-
-
-
-    .footer,
-    .push {
-        height: 50px;
-    }
