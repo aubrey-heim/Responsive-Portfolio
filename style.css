@@ -1,34 +1,64 @@
+/* --grullo: #afa298ff;
+--rosy-brown: #c59082ff;
+--feldgrau: #506a5fff;
+--bole: #744c44ff;
+--ash-gray: #a1aea7ff; */
+
+
 /* Adding neutral background image */
 body {
-    background-image: url("https://images.pexels.com/photos/1939485/pexels-photo-1939485.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260");
-   }
+    background-image: url("https://images.pexels.com/photos/268261/pexels-photo-268261.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    }
 
 /* Changing navigation link colors */
     .nav-link {
-        color: gray;
+        color: white;
     }
 
     #disabled {
-        color: black;
+        color: white;
     }
 /* ^Changing navigation link colors^ */
 
 /* Adding space between navbar and main content image */
 .navbar {
-    margin-bottom: 40px;
+    background: rgb(197,144,130);
+    background: linear-gradient(0deg, rgba(197,144,130,1) 43%, rgba(116,76,68,1) 100%);
+    padding: 20px;
+    margin-bottom: 20px;
 }
 
 /* Creating background around main-content */
-.container .mt-5 {
-    background-color: white;
+.info-box{
+    background-color:#a1aea7ff;
     padding: 20px;
-    margin-bottom: 60px;
+    border-radius: 20px;
+}
+
+#headshot-box{
+    margin: auto;
+    background: rgb(197,144,130);
+    /* padding: 20px; */
+    border-radius: 20px;
+    position: relative;
+    right:30px;
+    top:30px;
+}
+
+#headshot{
+    width:100%;
+    position: relative;
+    left:30px;
+    bottom:30px;
+    border-radius: 20px;
 }
 
 /* Changing style of my name at top of page */
 #brand {
     color: #ffffff;
-    background-color: rgb(74, 170, 165);
     font-family: 'Source Serif Pro', serif;
     font-weight: bold;
 }
@@ -37,7 +67,7 @@ body {
 h1 {
     font-family: 'Source Serif Pro', serif;
     font-weight: bold;
-    color:  rgb(74, 170, 165);
+    color:  #506a5fff;
 }
 
 /* Squaring up contact form boxes */
@@ -73,30 +103,23 @@ footer {
 /* Creating footer */
     padding-top: 10px;
     padding-bottom: 40px;
-    background-color: rgb(102, 102, 102);
+    background-color: #C59082;
     width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
 /* Blue stripe on top of footer */
     border-style: solid;
     border-width: 5px 0px 0px 0px;
-    border-color: rgb(74, 170, 165);
+    border-color: #744C44;
 /* Footer text */    
-    color:grey;
+    color:white;
     text-align: center;
 }
 
-/* Needed for sticky-footer */
-    html, body {
-        height: 100%;
-        margin: 0;
-    }
 
-    .wrapper {
-        min-height: 100%;
-        margin-bottom: -50px;
-    }
 
     .footer,
     .push {
         height: 50px;
     }
-/* ^Needed for sticky-footer^ */
