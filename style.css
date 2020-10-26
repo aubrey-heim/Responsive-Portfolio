@@ -37,21 +37,12 @@ body {
     margin-right: auto;
 }
 
-#headshot-box{
-    margin: auto;
-    background: rgb(197,144,130);
-    border-radius: 20px;
-    position: relative;
-    right:30px;
-    top:30px;
-}
 
 #headshot{
-    width:100%;
-    position: relative;
-    left:30px;
-    bottom:30px;
     border-radius: 20px;
+    width:90%;
+    background-color: #744C44;
+    margin: 5%;
 }
 
 #form-box{
@@ -75,13 +66,18 @@ h1 {
 
 
 /* changing style of contact form submit button */
-.form-btn {
+.btn {
     background-color: #744c44ff;
-    margin-left: 15px;
     padding: 10px;
-    width: 100px;
     border-color:black;
     border-radius: 10px;
+    color: white;
+    text-align: center;
+}
+
+.form-btn {
+    margin-left: 15px;
+    width: 100px;
 }
 
 /* Making images respond to window width */
@@ -92,20 +88,14 @@ h1 {
 
 .portfolio-button {
     width: 49%;
-    background-color: #744c44ff;
-    padding: 10px;
-    border-color: black;
-    border-radius: 10px;
-    color: white;
 }
 
 .contact-button {
     width: 100%;
-    background-color: #744c44ff;
-    padding: 10px;
-    border-color: black;
-    border-radius: 10px;
-    color: white;
+}
+
+#resume-btn {
+    width:100%;
 }
 
 footer {
