@@ -94,15 +94,18 @@ h1 {
     width: 49%;
 }
 
+
+
 footer {
 /* Creating footer */
     padding-top: 10px;
     padding-bottom: 10px;
     background-color: #C59082;
     width: 100%;
-    position: fixed;
+    position: absolute;
     bottom: 0;
     left: 0;
+
 /* Blue stripe on top of footer */
     border-style: solid;
     border-width: 5px 0px 0px 0px;
@@ -112,6 +115,9 @@ footer {
     text-align: center;
 }
 
-.push{
-    margin: 70px;
-}
+.wrapper {
+    position: relative;
+    min-height: 100vh;
+    padding-bottom: 75px;
+  }
+
