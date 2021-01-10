@@ -14,18 +14,15 @@ body {
     font-family: 'Montserrat', sans-serif;
     }
 
-/* Changing navigation link colors */
-
-    #disabled {
-        color: white;
-    }
-/* ^Changing navigation link colors^ */
-
 /* Adding space between navbar and main content image */
 .navbar {
     background: rgb(197,144,130);
     background: linear-gradient(0deg, rgba(197,144,130,1) 43%, rgba(116,76,68,1) 100%);
     margin-bottom: 20px;
+}
+
+.header-languages {
+    color: #744c44;
 }
 
 /* Creating background around main-content */
@@ -37,17 +34,21 @@ body {
     margin-right: auto;
 }
 
-
 #headshot{
     border-radius: 20px;
-    width:90%;
-    background-color: #744C44;
-    margin: 5%;
+    width:100%;
 }
 
-#form-box{
-    margin-bottom: 20px;
+a {
+    color: #744c44ff;
 }
+
+a:hover {
+    color: #506a5fff;
+}
+
+
+
 
 /* Changing style of my name at top of page */
 #brand {
@@ -64,8 +65,14 @@ h1 {
     color:  #506a5fff;
 }
 
+.skills h2 {
+    font-family: 'Oleo Script Swash Caps', cursive;
+    font-weight: bold;
+    color:  #506a5fff;
+}
 
-/* changing style of contact form submit button */
+
+/* changing style of buttons */
 .btn {
     background-color: #744c44ff;
     padding: 10px;
@@ -73,12 +80,9 @@ h1 {
     border-radius: 10px;
     color: white;
     text-align: center;
+    width: 100%
 }
 
-.form-btn {
-    margin-left: 15px;
-    width: 100px;
-}
 
 /* Making images respond to window width */
 .responsive-image {
@@ -86,16 +90,8 @@ h1 {
     height: auto;
 }
 
-.portfolio-button {
+.portfolio .btn {
     width: 49%;
-}
-
-.contact-button {
-    width: 100%;
-}
-
-#resume-btn {
-    width:100%;
 }
 
 footer {
